@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <style>
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width:50%
+    
+            }
+            td{
+                font-size: medium;
+            }
+            table{
+                border-spacing: 15px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="center" style="width: 80%;">
+        
+            <img src="Saylani_logo.png" alt="Saylani Logo" class="center">
+            <h1 style="text-align:center">
+                Saylani Online Academy
+            </h1>
+
+    
+            <fieldset style="background-color: lightgray; border: 0ch;" class="center" >
+                <h2 style="text-align: center;">
+                    Saylani Registration Form
+                </h2>
+    
+                <form action="successfully.html">
+                    <table class="center" style="width: 90%;">
+                
+                        <tr>
+                            <td>
+                                Name:
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Name" required maxlength="10" size="30">
+                            </td>
+                        </tr>
+                
+                        <tr>
+                            <td>
+                                Father Name:
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Father Name" required maxlength="10" size="30">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Password:
+                            </td>
+                            <td>    
+                                <input type="password" placeholder="Password" required minlength="8" size="30">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Address:
+                            </td>
+                            <td>    
+                                <textarea placeholder="Address" rows="5" cols="29"></textarea>
+                            </td>
+                        </tr>
+
+                        
+                        <tr>
+                            <td>
+                                Gender:
+                            </td>
+                            <td>    
+                                <input type="radio" name="Gender" value="Male" required>Male
+                                <input type="radio" name="Gender" value="Female" required>Female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Language:
+                            </td>
+                            <td>    
+                                <input type="checkbox"> Urdu
+                                <input type="checkbox"> English
+                                <input type="checkbox"> Arabic
+                                <input type="checkbox"> Chiness
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                D.O.B:
+                            </td>
+                            <td>   
+                                <input type="date">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Email Id:
+                            </td>
+                            <td>    
+                                <input type="email" placeholder="Email ID" required size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Mobile Number:
+                            </td>
+                            <td>
+                                <input type="text" placeholder="Mobile Number" required size="25">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                City:
+                            </td>
+                            <td>    
+                                <select name="City" id="City">
+                                <option value="sc">Select your City</option>
+                                <option>Hyderabad</option>
+                                <option>Karachi</option>
+                                <option>Lahor</option>
+                                <option>Islamabad</option>
+                                <option>Multan</option>
+                                <option>Sialkot</option>
+                                <option>Quetta</option>
+                                <option>Peshawar</option>
+                                <option>Faisalabad</option>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Hobbies:
+                            </td>
+                            <td>
+                                <select name="Hobbies" id="Hobbies" multiple="multiple">
+                                <option value="C">Cricket</option>
+                                <option value="Fb">Football</option>
+                                <option value="H">Hockey</option>
+                                <option value="T">Tennis</option>
+                                <option value="MG">Mobile Games</option>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Picture Upload:
+                            </td>
+                            <td>    
+                                <input type="file"> <input type="submit" value="Upload">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" style="text-align:center ;">
+                                <input type="Submit" value="Submit Form">
+                            </td>
+                        </tr>
+
+                    </table>
+                </form>
+            </fieldset>
+        </div>
+
+    </body>
+</html>
